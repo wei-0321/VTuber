@@ -1,17 +1,26 @@
 # VTuber
 
-(摘要)
-
+由於新冠肺炎(Covid-19)疫情造成生活型態的改變，部分日常互動、甚至上班上課都經由視訊進行，大家越來越習慣在線上互動，而這也使得「宅」經濟加速發展，直播產業等非接觸經濟變得更加興盛，其中虛擬網紅(VTuber)帶來的經濟效益更是驚人。但傳統VTuber在臉部特徵的偵測上需要靠昂貴且笨重的器材輔助，除此之外，虛擬人物的繪製與創建對於沒有美學基礎的人來說也是較為困難的。基於此，本專題實作出一個只需透過網路攝影機(Webcam)就能進行VTuber應用的系統。透過深度學習技術中的生成對抗網路(Generative Adversarial Networks, GANs)並使用我們特殊處理過後的資料集訓練過後就能生成出虛擬人物頭像，可以讓不會繪畫的人也能夠創造自己喜歡的虛擬人物。再搭配人臉辨識技術，將網路攝影機即時抓取的真人人臉特徵與GANs生成出來的虛擬人物頭像進行同步，最後整合成一個便於使用的圖形使用者介面。此系統可以降低成為VTuber的門檻，也有助於日後VTuber的相關應用，並豐富大家的日常生活。
 
 # 簡介
 
 介紹投影片 : 
+[簡報投影片.pptx](https://github.com/wei-0321/VTuber/files/7856617/3.pptx)
 
 
 展示 :
 
+經過特殊前處理過後的動漫人物臉部資料集
 
+![image](https://user-images.githubusercontent.com/71260071/149194671-b2df1c8b-fa2b-405b-81eb-6d3708c9217f.png)
 
+使用這些資料即來訓練StyleGAN3模型，利用訓練完的模型可以產生出逼真的動漫人物形象
+
+![image](https://user-images.githubusercontent.com/71260071/149194347-ba5aa912-9360-4df3-b97e-6fe24e670ffd.png)
+
+能夠透過網路攝影機將使用者所選擇的動漫人物與真實人臉做同步
+
+![image](https://user-images.githubusercontent.com/71260071/149194354-ec1cd503-fe90-44da-af03-7cecca5085ba.png)
 
 
 # 系統架構

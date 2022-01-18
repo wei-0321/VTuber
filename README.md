@@ -42,18 +42,18 @@
 軟體
 
 所需環境：
-- Python版本 >= 3.8
+- Python 版本 >= 3.8
 - CUDA toolkit版本 >= 11.1
 
 所需python套件：
-- Pytorch(torch)版本 >= 1.9.0 
+- Pytorch (torch) 版本 >= 1.9.0 
 - scipy
 - wxPython
 - PyQt5
 - numpy 
-- opencv(cv2)
-- Pillow(PIL)
-- scikit-image(skimage)
+- opencv (cv2)
+- Pillow (PIL)
+- scikit-image (skimage)
 - pymatting
 - hsh
 - imutils

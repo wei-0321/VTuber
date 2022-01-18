@@ -73,11 +73,11 @@
 ```
 > git clone https://github.com/wei-0321/VTuber.git
 ```
-4.Change the diretory to this repository.
+4.到此專案的目錄位置
 ```
 > cd VTuber
 ```
-5.Execute the program.
+5.執行主程式
 ```
 > python GUI.py
 ```
